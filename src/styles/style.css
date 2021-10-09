@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*common css*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #000;
+  line-height: 18px;
+}
+
+ h1,h2,h3,h4,h5,h6{
+     margin:0;
+     padding: 0;;
+ }
+ img{
+     max-width: 100%;
+ }
+
+:root {
+  --base-color: #5db64c;
+  --flex: flex;
+  --white: white;
+}
+
+.text-color-base {
+  color: #5db64c;
+}
+.common-padding {
+  padding: 1rem 15rem;
+}
+
+.main-container h2 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.main-container h5 {
+  color: var(--base-color);
+}
+
+.custom-btns {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 8px 27px;
+}
+.custom-border-right {
+  border-right: solid;
+  padding: 0 20px;
+}
+
+.color-white {
+  color: var(--white);
+}
+/* //////////// */
+
+.register-btn {
+  text-decoration: underline;
+}
+
+.login-btn {
+  border: solid 1px;
+}
+
+/**/
+.main-container .header {
+  display: var(--flex);
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.main-container .header .cities-contact-wrapper {
+  display: var(--flex);
+}
+
+.main-container .header .logo-wrapper {
+  max-width: 186px;
+}
+
+.main-container .header .logo-wrapper img {
+  max-width: 100%;
+}
+/*banner section start*/
+.main-container .banner-section {
+  background-image: url("./../images/Dev/Banner_1.jpg");
+  height: 400px;
+  width: 100%;
+}
+
+.main-container .banner-section .card-wrapper {
+  background: var(--white);
+  height: 80px;
+
+  padding: 20px;
+  display: var(--flex);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-container .banner-section .location-wrapper.cards {
+  padding: 0.4rem;
+}
+
+.main-container .banner-section .search-icon-wrapper {
+  /* display: var(--flex); */
+}
+.main-container .banner-section .card-wrapper .select {
+  width: 23%;
+  border: none;
+  border-bottom: solid 1px;
+}
+
+/*arrow section*/
+.main-container .arrow-section {
+  background: #c8c8c8ab;
+}
+
+.main-container .arrow-section .icon-wrapper {
+  max-width: 100px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.7rem;
+}
+
+.olive-main-title-section{
+    padding: 50px 0px;
+}
+
+.olive-main-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.olive-main-title h2{
+    color: #5db64c;
+    font-size: 2.5rem;
+    padding-bottom: 17px;
+}
+
+.olive-main-title h2 span{
+    display: block;
+}
+
+.olive-main-title  p{
+    font-size: 0.9rem;
+    margin: 0;
+}
+
